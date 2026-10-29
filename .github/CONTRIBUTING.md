@@ -14,7 +14,9 @@ and in one family with the rest:
 - **One height.** The ink runs from 3.75 to 20.25 (16.5 tall), so symbols
   side by side stand alike. Bodies sit on the 4.5–19.5 baseline; a part
   that overhangs (a crown's points, a roof's eaves) may reach 2.25 or
-  21.75. Width follows the shape, no wider than 19.5.
+  21.75. Width follows the shape, no wider than 19.5. (The angles' letter
+  pairs stand at a cap height of 12, 6 to 18: two letters then take about
+  what one symbol does.)
 - **Slants at 45°** where a slant is free.
 - **Shared sizes** where symbols share a part, so they read as kin:
   circles small (2.25: Pluto's, Uranus's, the nodes', Cancer's, Leo's, the

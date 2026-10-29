@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- The four angles, `ascendant`, `midheaven`, `descendant` and `imum-coeli`, each its letters (AC, MC, DC, IC) set as a pair at a cap height of 12, so two letters take about what one symbol does.
+
+### Removed
+
+- The single letters `letter-a`, `letter-c`, `letter-d`, `letter-i`, `letter-m`: the angles' icons take their place.
+
 ### Changed
 
 - `detriment` is the house turned over, as `fall` is the crown: each debility its dignity upside down. It was the house struck through.

@@ -10,7 +10,7 @@
   <a href="https://rosicrucian.dev/icons"><strong>Browse at rosicrucian.dev/icons &rarr;</strong></a>
 </p>
 
-The set starts with astrology: the planets, Chiron and the Moon's nodes, the twelve signs, the aspects, the four elements, the dignities, and numerals and letters in the same stroke for house numbers and the angles. Other traditions follow.
+The set starts with astrology: the planets, Chiron and the Moon's nodes, the twelve signs, the aspects, the four elements, the dignities, numerals in the same stroke for house numbers, and the four angles as their letters (AC, MC, DC, IC). Other traditions follow.
 
 ## Basic Usage
 
