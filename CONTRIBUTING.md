@@ -44,9 +44,10 @@ The tests (`npm test`) check these for every file in `icons/`.
 2. Draw on the grid in any SVG editor, or by hand in the path. Delete the
    guides when done: the file holds the one path.
 3. Add the icon to `icons/meta.json`: its category, the Unicode codepoint
-   it stands for if there is one, a few keywords for search, where its ink
-   is centred (`ink`), and its source (`original`, or `heroicons` with the
-   Heroicon's name when it is one or builds on one).
+   it stands for if there is one (and the character), a few keywords for
+   search, and its source (`original`, or `heroicons` with the Heroicon's
+   name when it is one or builds on one). The ink's bounds and centre are
+   measured from the drawing at build time.
 4. `npm test`, and `npm run sheet` for a contact sheet of the whole set
    (`docs/sheet.html`) to see the new icon beside its kin, light and
    dark, at 64, 24, 20 and 16 px; then a pull request with the icon drawn
