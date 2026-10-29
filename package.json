@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "lint": "node ./scripts/verify-names.js",
     "prebuild": "rimraf ./24 ./{vue,react}/24 ./optimized/24",
     "build": "npm run build-24-outline && npm run build-react && npm run build-vue",
