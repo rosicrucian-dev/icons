@@ -1,0 +1,55 @@
+name: Release
+
+# Publishing a GitHub release publishes the three packages to npm, with
+# provenance, on the channel the version names (scripts/release-channel.js:
+# `latest`, or a prerelease's). Heroicons also publishes an `insiders` build
+# on every push; this doesn't, yet.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [24]
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Resolve release channel
+        run: echo "RELEASE_CHANNEL=$(npm run release-channel --silent)" >> $GITHUB_ENV
+
+      - name: Publish `rosicrucian-icons`
+        run: npm publish --provenance --tag "$RELEASE_CHANNEL"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish `@rosicrucian-icons/react`
+        run: npm publish ./react --provenance --tag "$RELEASE_CHANNEL"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish `@rosicrucian-icons/vue`
+        run: npm publish ./vue --provenance --tag "$RELEASE_CHANNEL"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

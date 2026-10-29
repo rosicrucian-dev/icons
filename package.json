@@ -1,26 +1,45 @@
 {
   "name": "rosicrucian-icons",
-  "private": true,
-  "description": "Rosicrucian Icons: the symbols of the spiritual traditions, drawn in one family. The source repository; the packages are @rosicrucian-dev/icons and @rosicrucian-dev/icons-react.",
   "license": "MIT",
-  "repository": "github:rosicrucian-dev/icons",
-  "workspaces": [
-    "packages/*"
+  "version": "0.1.0",
+  "description": "Hand-crafted SVG icons of the symbols of the spiritual traditions, in the manner of Heroicons.",
+  "keywords": [
+    "icons",
+    "svg",
+    "astrology",
+    "zodiac",
+    "esoteric",
+    "heroicons",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosicrucian-dev/icons.git"
+  },
+  "files": [
+    "24/",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
-    "build": "node --experimental-strip-types scripts/build.ts",
-    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.ts\"",
-    "new-icon": "node --experimental-strip-types scripts/new-icon.ts",
-    "sheet": "node --experimental-strip-types scripts/sheet.ts",
-    "format": "prettier --write \"scripts/**/*.ts\" \"test/**/*.ts\" \"*.md\" \"docs/*.md\""
-  },
-  "engines": {
-    "node": ">=22.18"
+    "prepublishOnly": "npm run build",
+    "lint": "node ./scripts/verify-names.js",
+    "prebuild": "rimraf ./24 ./{vue,react}/24 ./optimized/24",
+    "build": "npm run build-24-outline && npm run build-react && npm run build-vue",
+    "build-react": "node ./scripts/build.js react",
+    "build-vue": "node ./scripts/build.js vue",
+    "build-24-outline": "rimraf ./24/outline ./optimized/24/outline && svgo --config=svgo.24.outline.mjs -f ./src/24/outline -o ./optimized/24/outline --pretty --indent=2 && mkdir -p ./24 && cp -R ./optimized/24/outline ./24/outline",
+    "release-channel": "node ./scripts/release-channel.js",
+    "release-notes": "node ./scripts/release-notes.js"
   },
   "devDependencies": {
-    "prettier": "^3.8.3",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6"
-  },
-  "type": "module"
+    "@babel/core": "^7.27.3",
+    "@babel/plugin-transform-react-jsx": "^7.27.1",
+    "@svgr/core": "^5.5.0",
+    "@vue/compiler-dom": "^3.0.5",
+    "camelcase": "^6.0.0",
+    "prettier": "^2.8.7",
+    "rimraf": "^3.0.2",
+    "svgo": "^3.0.2"
+  }
 }

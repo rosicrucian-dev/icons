@@ -41,16 +41,23 @@ Two provenance notes to settle before publishing:
 
 ## 2. Name and packages
 
-Project name: **Rosicrucian Icons**. The repo is `rosicrucian-dev/icons`;
-the packages are scoped, so the org owns the names:
+Project name: **Rosicrucian Icons**. The repo is `rosicrucian-dev/icons`.
+The packages mirror Heroicons' (`heroicons`, `@heroicons/react`,
+`@heroicons/vue`), under an npm organisation `rosicrucian-icons`:
 
-- `@rosicrucian-dev/icons`: the SVG files and a JSON manifest. Framework
-  free; the source of truth for everything else.
-- `@rosicrucian-dev/icons-react`: one component per icon, generated,
-  tree-shakeable, like `@heroicons/react/24/outline`.
+- `rosicrucian-icons`: the SVG files (the repo's root package).
+- `@rosicrucian-icons/react` and `@rosicrucian-icons/vue`: a component per
+  icon, from Heroicons' own build script.
 
-Vue, Svelte and an icon font can come later from the same SVGs; none is
-needed to start.
+**Decided 2026-10-29: the repo follows Heroicons in lock step.** Its
+layout, build (`scripts/build.js`, svgo, svgr, Babel, the Vue compiler),
+lint (`verify-names.js`), workflows and READMEs are Heroicons' own with
+the names changed. There is no metadata file in this repo, as there is
+none in Heroicons'; categories, keywords and codepoints live with the
+gallery on rosicrucian.dev (`docs/icons-meta.json` there, for now), and
+Starscroll computes ink centres from the path data itself. The tests were
+pruned. Sections 3 to 5 below describe the earlier design and are kept for
+the record.
 
 ## 3. Repository layout
 

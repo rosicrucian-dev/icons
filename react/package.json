@@ -1,0 +1,67 @@
+{
+  "name": "@rosicrucian-icons/react",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Hand-crafted SVG icons of the symbols of the spiritual traditions, in the manner of Heroicons.",
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "astrology",
+    "zodiac",
+    "esoteric",
+    "heroicons",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/rosicrucian-dev/icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosicrucian-dev/icons.git"
+  },
+  "files": [
+    "24",
+    "index.esm.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">= 16 || ^19.0.0-rc"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.esm.js",
+      "require": "./index.js"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./24/outline": {
+      "types": "./24/outline/index.d.ts",
+      "import": "./24/outline/esm/index.js",
+      "require": "./24/outline/index.js"
+    },
+    "./24/outline/*": {
+      "types": "./24/outline/*.d.ts",
+      "import": "./24/outline/esm/*.js",
+      "require": "./24/outline/*.js"
+    },
+    "./24/outline/*.js": {
+      "types": "./24/outline/*.d.ts",
+      "import": "./24/outline/esm/*.js",
+      "require": "./24/outline/*.js"
+    },
+    "./24/outline/esm/*": {
+      "types": "./24/outline/*.d.ts",
+      "import": "./24/outline/esm/*.js"
+    },
+    "./24/outline/esm/*.js": {
+      "types": "./24/outline/*.d.ts",
+      "import": "./24/outline/esm/*.js"
+    }
+  }
+}
