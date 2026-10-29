@@ -42,7 +42,7 @@ To draw one:
 
 Heroicons is the base. An icon of theirs that serves a tradition's meaning
 may come in as it is, or adapted, named for the meaning here (`domicile` is
-their `home`). Their MIT notice is in [LICENSE](../LICENSE); say so in the
+their `home`; `detriment`, it turned over). Their MIT notice is in [LICENSE](../LICENSE); say so in the
 pull request.
 
 ## Publishing

@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Nothing yet!
+### Changed
+
+- `detriment` is the house turned over, as `fall` is the crown: each debility its dignity upside down. It was the house struck through.
 
 ## [0.1.0] - 2026-10-29
 
