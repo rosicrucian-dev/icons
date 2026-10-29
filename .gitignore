@@ -4,4 +4,8 @@ node_modules/
 packages/icons/svg/
 packages/icons/icons.json
 packages/react/24/
+# `npm run sheet`, to look the set over.
+docs/sheet.html
+# The build test's scratch folders.
+.build-test-*/
 .DS_Store

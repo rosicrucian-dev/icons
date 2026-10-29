@@ -9,10 +9,18 @@
   ],
   "scripts": {
     "build": "node --experimental-strip-types scripts/build.ts",
-    "test": "node --test \"test/*.test.ts\"",
-    "new-icon": "node --experimental-strip-types scripts/new-icon.ts"
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.ts\"",
+    "new-icon": "node --experimental-strip-types scripts/new-icon.ts",
+    "sheet": "node --experimental-strip-types scripts/sheet.ts",
+    "format": "prettier --write \"scripts/**/*.ts\" \"test/**/*.ts\" \"*.md\" \"docs/*.md\""
   },
   "engines": {
     "node": ">=22.18"
-  }
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "type": "module"
 }

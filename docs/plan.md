@@ -20,16 +20,16 @@ drawn, one family, with a written style guide in the file's header:
 
 The inventory, 36 symbols plus numerals and letters:
 
-| Category  | Icons                                                                                                   |
-| --------- | ------------------------------------------------------------------------------------------------------- |
-| Planets   | sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto                                |
-| Points    | north-node, south-node, chiron                                                                          |
-| Signs     | aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces     |
-| Aspects   | conjunction, opposition, square, trine, quincunx, sextile                                               |
-| Elements  | fire, earth, air, water                                                                                 |
+| Category  | Icons                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Planets   | sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto                                                |
+| Points    | north-node, south-node, chiron                                                                                          |
+| Signs     | aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces                     |
+| Aspects   | conjunction, opposition, square, trine, quincunx, sextile                                                               |
+| Elements  | fire, earth, air, water                                                                                                 |
 | Dignities | domicile (a house), exaltation (a crown), detriment (the house struck through), fall (the crown turned), retrograde (℞) |
-| Numerals  | 0–9, in the symbols' stroke, for house numbers                                                          |
-| Letters   | A, C, D, I, M, for the angles (AC, MC, DC, IC)                                                          |
+| Numerals  | 0–9, in the symbols' stroke, for house numbers                                                                          |
+| Letters   | A, C, D, I, M, for the angles (AC, MC, DC, IC)                                                                          |
 
 Two provenance notes to settle before publishing:
 
@@ -113,7 +113,7 @@ Heroicon; the `ink` centre is there for apps that set symbols optically
   template string. No bundler: ESM, `exports` map, hand-written `.d.ts`
   template.
 - `test/rules.test.ts` turns the style guide into checks: `viewBox="0 0 24
-  24"`, `stroke-width="1.5"`, round caps and joins, `fill="none"`, ink
+24"`, `stroke-width="1.5"`, round caps and joins, `fill="none"`, ink
   within 3.75–20.25 vertically (measured from the path's bounds with a
   small path-bbox routine), no transforms, no ids.
 - CI on every push: tests, build, a diff check that the generated packages
@@ -122,9 +122,11 @@ Heroicon; the `ink` centre is there for apps that set symbols optically
 ## 6. The React package
 
 ```tsx
-import { MercuryIcon, TrineIcon } from '@rosicrucian-dev/icons-react/24/outline'
+import { MercuryIcon } from '@rosicrucian-dev/icons-react/24/outline'
 
-<MercuryIcon className="size-6 text-zinc-500" />
+export function Example() {
+  return <MercuryIcon className="size-6 text-zinc-500" />
+}
 ```
 
 Each component renders the SVG with `fill="none"`, `stroke="currentColor"`,
@@ -177,14 +179,14 @@ README credits Astronomicon as the reference for the symbols' forms.
 
 ## 11. Milestones
 
-| Step | What                                                                                   | Effort      |
-| ---- | -------------------------------------------------------------------------------------- | ----------- |
-| M1   | Repo, licence, the 36 symbols plus numerals and letters as SVG files, grid template    | an evening  |
-| M2   | Build script, manifest, React package, rules as tests, CI                              | a day       |
-| M3   | Publish 0.1.0 of both packages (provenance), CHANGELOG                                 | an hour     |
-| M4   | `/icons` gallery on rosicrucian.dev                                                    | a day       |
-| M5   | Starscroll switched to the packages, `astroSymbols.ts` deleted                         | half a day  |
-| M6   | README and CONTRIBUTING polished, a short post or README section announcing it         | an evening  |
+| Step | What                                                                                | Effort     |
+| ---- | ----------------------------------------------------------------------------------- | ---------- |
+| M1   | Repo, licence, the 36 symbols plus numerals and letters as SVG files, grid template | an evening |
+| M2   | Build script, manifest, React package, rules as tests, CI                           | a day      |
+| M3   | Publish 0.1.0 of both packages (provenance), CHANGELOG                              | an hour    |
+| M4   | `/icons` gallery on rosicrucian.dev                                                 | a day      |
+| M5   | Starscroll switched to the packages, `astroSymbols.ts` deleted                      | half a day |
+| M6   | README and CONTRIBUTING polished, a short post or README section announcing it      | an evening |
 
 ## 12. Decisions to make first
 

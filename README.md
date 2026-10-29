@@ -26,9 +26,11 @@ Two packages (coming with the first release):
 - **`@rosicrucian-dev/icons-react`**: a component per icon.
 
 ```tsx
-import { MercuryIcon, TrineIcon } from '@rosicrucian-dev/icons-react/24/outline'
+import { MercuryIcon } from '@rosicrucian-dev/icons-react/24/outline'
 
-<MercuryIcon className="size-6 text-zinc-500" />
+export function Example() {
+  return <MercuryIcon className="size-6 text-zinc-500" />
+}
 ```
 
 Until then, the SVGs are in [`icons/24/outline`](icons/24/outline), each a
@@ -44,24 +46,39 @@ discs, can set the ink where it wants it. Starscroll does.
 
 ## The set
 
-| Category  | Icons                                                                                                                                   |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| planets   | sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto                                                                |
-| points    | north-node, south-node, chiron                                                                                                          |
-| signs     | aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces                                     |
-| aspects   | conjunction, opposition, square, trine, quincunx, sextile                                                                               |
-| elements  | fire, earth, air, water                                                                                                                 |
-| dignities | domicile, exaltation, detriment, fall, retrograde                                                                                       |
-| numerals  | numeral-0 … numeral-9                                                                                                                   |
-| letters   | letter-a, letter-c, letter-d, letter-i, letter-m (the angles: AC, MC, DC, IC)                                                           |
+| Category  | Icons                                                                                               |
+| --------- | --------------------------------------------------------------------------------------------------- |
+| planets   | sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto                            |
+| points    | north-node, south-node, chiron                                                                      |
+| signs     | aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces |
+| aspects   | conjunction, opposition, square, trine, quincunx, sextile                                           |
+| elements  | fire, earth, air, water                                                                             |
+| dignities | domicile, exaltation, detriment, fall, retrograde                                                   |
+| numerals  | numeral-0 … numeral-9                                                                               |
+| letters   | letter-a, letter-c, letter-d, letter-i, letter-m (the angles: AC, MC, DC, IC)                       |
 
 [`icons/meta.json`](icons/meta.json) has each icon's category, codepoint,
-keywords, ink centre and source.
+keywords and source; the ink's bounds and centre are measured from the
+drawing at build time.
 
 ## How they're drawn
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the rules, and
 [`template/grid.svg`](template/grid.svg) for the grid to draw on.
+
+## Developing
+
+Node 22.18 or newer.
+
+```sh
+npm install
+npm test          # the rules, for every icon; the build renders
+npm run build     # the two packages, under packages/ (not committed)
+npm run sheet     # docs/sheet.html, every icon by category, light and dark
+npm run new-icon <name> <category>
+```
+
+A tag `vX.Y.Z` publishes both packages at that version (`.github/workflows/publish.yml`).
 
 ## Credits
 

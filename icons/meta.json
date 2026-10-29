@@ -8,10 +8,6 @@
       "luminary",
       "star"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "moon": {
@@ -23,10 +19,6 @@
       "luminary",
       "crescent"
     ],
-    "ink": {
-      "x": 12.726,
-      "y": 12
-    },
     "source": "original"
   },
   "mercury": {
@@ -36,10 +28,6 @@
     "keywords": [
       "hermes"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "venus": {
@@ -50,10 +38,6 @@
       "aphrodite",
       "female"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "mars": {
@@ -64,10 +48,6 @@
       "ares",
       "male"
     ],
-    "ink": {
-      "x": 12.75,
-      "y": 12
-    },
     "source": "original"
   },
   "jupiter": {
@@ -77,10 +57,6 @@
     "keywords": [
       "zeus"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "saturn": {
@@ -90,10 +66,6 @@
     "keywords": [
       "kronos"
     ],
-    "ink": {
-      "x": 10.125,
-      "y": 12
-    },
     "source": "original"
   },
   "uranus": {
@@ -101,10 +73,6 @@
     "codepoint": "U+2645",
     "character": "♅",
     "keywords": [],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "neptune": {
@@ -114,10 +82,6 @@
     "keywords": [
       "trident"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "pluto": {
@@ -125,10 +89,6 @@
     "codepoint": "U+2647",
     "character": "♇",
     "keywords": [],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "north-node": {
@@ -140,10 +100,6 @@
       "rahu",
       "lunar node"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12.001
-    },
     "source": "original"
   },
   "south-node": {
@@ -155,10 +111,6 @@
       "ketu",
       "lunar node"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "chiron": {
@@ -170,10 +122,6 @@
       "wounded healer",
       "asteroid"
     ],
-    "ink": {
-      "x": 12.75,
-      "y": 12
-    },
     "source": "original"
   },
   "aries": {
@@ -185,10 +133,6 @@
       "fire",
       "cardinal"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "taurus": {
@@ -200,10 +144,6 @@
       "earth",
       "fixed"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "gemini": {
@@ -215,10 +155,6 @@
       "air",
       "mutable"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "cancer": {
@@ -230,10 +166,6 @@
       "water",
       "cardinal"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "leo": {
@@ -245,10 +177,6 @@
       "fire",
       "fixed"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "virgo": {
@@ -260,10 +188,6 @@
       "earth",
       "mutable"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "libra": {
@@ -275,10 +199,6 @@
       "air",
       "cardinal"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "scorpio": {
@@ -290,10 +210,6 @@
       "water",
       "fixed"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "sagittarius": {
@@ -305,10 +221,6 @@
       "fire",
       "mutable"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "capricorn": {
@@ -320,10 +232,6 @@
       "earth",
       "cardinal"
     ],
-    "ink": {
-      "x": 11.063,
-      "y": 12
-    },
     "source": "original"
   },
   "aquarius": {
@@ -335,10 +243,6 @@
       "air",
       "fixed"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "pisces": {
@@ -350,10 +254,6 @@
       "water",
       "mutable"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "conjunction": {
@@ -363,10 +263,6 @@
     "keywords": [
       "0°"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "opposition": {
@@ -376,10 +272,6 @@
     "keywords": [
       "180°"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "square": {
@@ -389,10 +281,6 @@
     "keywords": [
       "90°"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "trine": {
@@ -402,10 +290,6 @@
     "keywords": [
       "120°"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "quincunx": {
@@ -416,10 +300,6 @@
       "150°",
       "inconjunct"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "sextile": {
@@ -429,10 +309,6 @@
     "keywords": [
       "60°"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "fire": {
@@ -443,10 +319,6 @@
       "alchemy",
       "triangle"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "earth": {
@@ -457,10 +329,6 @@
       "alchemy",
       "triangle"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "air": {
@@ -471,10 +339,6 @@
       "alchemy",
       "triangle"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "water": {
@@ -485,10 +349,6 @@
       "alchemy",
       "triangle"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-0": {
@@ -499,10 +359,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-1": {
@@ -513,10 +369,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-2": {
@@ -527,10 +379,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-3": {
@@ -541,10 +389,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-4": {
@@ -555,10 +399,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-5": {
@@ -569,10 +409,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-6": {
@@ -583,10 +419,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-7": {
@@ -597,10 +429,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-8": {
@@ -611,10 +439,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "numeral-9": {
@@ -625,10 +449,6 @@
       "digit",
       "house number"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "letter-a": {
@@ -640,10 +460,6 @@
       "ascendant",
       "midheaven"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "letter-c": {
@@ -655,10 +471,6 @@
       "ascendant",
       "midheaven"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "letter-m": {
@@ -670,10 +482,6 @@
       "ascendant",
       "midheaven"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "letter-d": {
@@ -685,10 +493,6 @@
       "ascendant",
       "midheaven"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "letter-i": {
@@ -698,10 +502,6 @@
     "keywords": [
       "angle"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "original"
   },
   "domicile": {
@@ -712,10 +512,6 @@
       "house",
       "dignity"
     ],
-    "ink": {
-      "x": 12,
-      "y": 11.86
-    },
     "source": "heroicons",
     "heroicon": "home"
   },
@@ -725,10 +521,6 @@
       "crown",
       "dignity"
     ],
-    "ink": {
-      "x": 12,
-      "y": 13.5
-    },
     "source": "original"
   },
   "detriment": {
@@ -739,10 +531,6 @@
       "exile",
       "debility"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12
-    },
     "source": "heroicons",
     "heroicon": "home"
   },
@@ -753,10 +541,6 @@
       "turned",
       "debility"
     ],
-    "ink": {
-      "x": 12,
-      "y": 13.5
-    },
     "source": "original"
   },
   "retrograde": {
@@ -768,10 +552,6 @@
       "motion",
       "backward"
     ],
-    "ink": {
-      "x": 12,
-      "y": 12.375
-    },
     "source": "original"
   }
 }
