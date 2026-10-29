@@ -1,0 +1,23 @@
+{
+  "name": "@rosicrucian-dev/icons-react",
+  "version": "0.0.0",
+  "description": "Rosicrucian Icons as React components, one per icon.",
+  "license": "MIT",
+  "repository": "github:rosicrucian-dev/icons",
+  "homepage": "https://rosicrucian.dev/icons",
+  "keywords": ["icons", "react", "svg", "astrology", "zodiac", "esoteric", "heroicons"],
+  "type": "module",
+  "files": ["24", "README.md"],
+  "exports": {
+    "./24/outline": "./24/outline/index.js",
+    "./24/outline/*": "./24/outline/*.js"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">= 16.8"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
