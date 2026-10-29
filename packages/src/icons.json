@@ -1,0 +1,1217 @@
+{
+  "sun": {
+    "name": "sun",
+    "category": "planets",
+    "codepoint": "U+2609",
+    "character": "☉",
+    "keywords": [
+      "sol",
+      "luminary",
+      "star"
+    ],
+    "source": "original",
+    "path": "M20.25 12a8.25 8.25 0 1 1-16.5 0 8.25 8.25 0 0 1 16.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "moon": {
+    "name": "moon",
+    "category": "planets",
+    "codepoint": "U+263D",
+    "character": "☽",
+    "keywords": [
+      "luna",
+      "luminary",
+      "crescent"
+    ],
+    "source": "original",
+    "path": "M5.95 5.68A8.25 8.25 0 1 1 5.95 18.32 6.5 6.5 0 0 0 5.95 5.68Z",
+    "bounds": {
+      "left": 5.95,
+      "right": 19.503,
+      "top": 3.755,
+      "bottom": 20.245
+    },
+    "ink": {
+      "x": 12.727,
+      "y": 12
+    }
+  },
+  "mercury": {
+    "name": "mercury",
+    "category": "planets",
+    "codepoint": "U+263F",
+    "character": "☿",
+    "keywords": [
+      "hermes"
+    ],
+    "source": "original",
+    "path": "M8.25 3.75a3.75 3.75 0 0 0 7.5 0M15.75 11.25a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM12 15v5.25M8.25 17.625h7.5",
+    "bounds": {
+      "left": 8.25,
+      "right": 15.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "venus": {
+    "name": "venus",
+    "category": "planets",
+    "codepoint": "U+2640",
+    "character": "♀",
+    "keywords": [
+      "aphrodite",
+      "female"
+    ],
+    "source": "original",
+    "path": "M16.5 8.25a4.5 4.5 0 1 1-9.0 0 4.5 4.5 0 0 1 9.0 0ZM12 12.75v7.5M8.25 16.5h7.5",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "mars": {
+    "name": "mars",
+    "category": "planets",
+    "codepoint": "U+2642",
+    "character": "♂",
+    "keywords": [
+      "ares",
+      "male"
+    ],
+    "source": "original",
+    "path": "M13.5 15.75a4.5 4.5 0 1 1-9.0 0 4.5 4.5 0 0 1 9.0 0ZM12.18 12.57 21 3.75M16.5 3.75H21v4.5",
+    "bounds": {
+      "left": 4.5,
+      "right": 21,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12.75,
+      "y": 12
+    }
+  },
+  "jupiter": {
+    "name": "jupiter",
+    "category": "planets",
+    "codepoint": "U+2643",
+    "character": "♃",
+    "keywords": [
+      "zeus"
+    ],
+    "source": "original",
+    "path": "M4.5 7.5a3.75 3.75 0 1 1 7.5 0c0 3.75-7.5 6-7.5 8.25h15M15.75 9.75v10.5",
+    "bounds": {
+      "left": 4.5,
+      "right": 19.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "saturn": {
+    "name": "saturn",
+    "category": "planets",
+    "codepoint": "U+2644",
+    "character": "♄",
+    "keywords": [
+      "kronos"
+    ],
+    "source": "original",
+    "path": "M8.25 3.75v12.75M4.5 6.375h7.5M8.25 13.5a3.75 3.75 0 0 1 7.5 0c0 2.625-2.625 3.375-2.625 5.25 0 1.125.75 1.5 1.5 1.5",
+    "bounds": {
+      "left": 4.5,
+      "right": 15.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 10.125,
+      "y": 12
+    }
+  },
+  "uranus": {
+    "name": "uranus",
+    "category": "planets",
+    "codepoint": "U+2645",
+    "character": "♅",
+    "keywords": [],
+    "source": "original",
+    "path": "M5.25 3.75a15 15 0 0 1 0 11.25M18.75 3.75a15 15 0 0 0 0 11.25M6.32 9.375h11.36M12 3.75v12M14.25 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z",
+    "bounds": {
+      "left": 5.25,
+      "right": 18.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "neptune": {
+    "name": "neptune",
+    "category": "planets",
+    "codepoint": "U+2646",
+    "character": "♆",
+    "keywords": [
+      "trident"
+    ],
+    "source": "original",
+    "path": "M6 3.75v3.75a6 6 0 0 0 12 0V3.75M12 3.75v16.5M8.25 16.5h7.5",
+    "bounds": {
+      "left": 6,
+      "right": 18,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "pluto": {
+    "name": "pluto",
+    "category": "planets",
+    "codepoint": "U+2647",
+    "character": "♇",
+    "keywords": [],
+    "source": "original",
+    "path": "M6 6a6 6 0 0 0 12 0M14.25 6a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM12 12v8.25M8.25 16.5h7.5",
+    "bounds": {
+      "left": 6,
+      "right": 18,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "north-node": {
+    "name": "north-node",
+    "category": "points",
+    "codepoint": "U+260A",
+    "character": "☊",
+    "keywords": [
+      "dragon's head",
+      "rahu",
+      "lunar node"
+    ],
+    "source": "original",
+    "path": "M7.5 15.75v-7.5a4.5 4.5 0 0 1 9 0v7.5M9.75 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM18.75 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z",
+    "bounds": {
+      "left": 5.25,
+      "right": 18.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "south-node": {
+    "name": "south-node",
+    "category": "points",
+    "codepoint": "U+260B",
+    "character": "☋",
+    "keywords": [
+      "dragon's tail",
+      "ketu",
+      "lunar node"
+    ],
+    "source": "original",
+    "path": "M7.5 8.25v7.5a4.5 4.5 0 0 0 9 0v-7.5M9.75 6a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM18.75 6a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z",
+    "bounds": {
+      "left": 5.25,
+      "right": 18.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "chiron": {
+    "name": "chiron",
+    "category": "points",
+    "codepoint": "U+26B7",
+    "character": "⚷",
+    "keywords": [
+      "key",
+      "wounded healer",
+      "asteroid"
+    ],
+    "source": "original",
+    "path": "M12 3.75v10.5M12 8.25l4.5-4.5M12 8.25l4.5 4.5M15 17.25a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z",
+    "bounds": {
+      "left": 9,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12.75,
+      "y": 12
+    }
+  },
+  "aries": {
+    "name": "aries",
+    "category": "signs",
+    "codepoint": "U+2648",
+    "character": "♈",
+    "keywords": [
+      "ram",
+      "fire",
+      "cardinal"
+    ],
+    "source": "original",
+    "path": "M12 20.25V7.5a3.75 3.75 0 1 0-7.5 0c0 1.25.5 2.25 1.5 2.625M12 7.5a3.75 3.75 0 1 1 7.5 0c0 1.25-.5 2.25-1.5 2.625",
+    "bounds": {
+      "left": 4.5,
+      "right": 19.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "taurus": {
+    "name": "taurus",
+    "category": "signs",
+    "codepoint": "U+2649",
+    "character": "♉",
+    "keywords": [
+      "bull",
+      "earth",
+      "fixed"
+    ],
+    "source": "original",
+    "path": "M6.5 3.75a5.5 5.5 0 0 0 11 0M17.5 14.75a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Z",
+    "bounds": {
+      "left": 6.5,
+      "right": 17.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "gemini": {
+    "name": "gemini",
+    "category": "signs",
+    "codepoint": "U+264A",
+    "character": "♊",
+    "keywords": [
+      "twins",
+      "air",
+      "mutable"
+    ],
+    "source": "original",
+    "path": "M8.25 5.28v13.44M15.75 5.28v13.44M4.5 3.75a15 15 0 0 0 15 0M4.5 20.25a15 15 0 0 1 15 0",
+    "bounds": {
+      "left": 4.5,
+      "right": 19.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "cancer": {
+    "name": "cancer",
+    "category": "signs",
+    "codepoint": "U+264B",
+    "character": "♋",
+    "keywords": [
+      "crab",
+      "water",
+      "cardinal"
+    ],
+    "source": "original",
+    "path": "M9.75 7.5a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM6.268 5.618A11.433 11.433 0 0 1 20.25 6.75M18.75 16.5a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM17.732 18.382A11.433 11.433 0 0 1 3.75 17.25",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "leo": {
+    "name": "leo",
+    "category": "signs",
+    "codepoint": "U+264C",
+    "character": "♌",
+    "keywords": [
+      "lion",
+      "fire",
+      "fixed"
+    ],
+    "source": "original",
+    "path": "M7.875 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM7.875 18C7.875 15 6 13.5 6 9.75a6 6 0 0 1 12 0c0 3.75-1.875 5.25-1.875 8.25a2.25 2.25 0 0 0 4.5 0",
+    "bounds": {
+      "left": 3.375,
+      "right": 20.625,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "virgo": {
+    "name": "virgo",
+    "category": "signs",
+    "codepoint": "U+264D",
+    "character": "♍",
+    "keywords": [
+      "maiden",
+      "earth",
+      "mutable"
+    ],
+    "source": "original",
+    "path": "M2.25 3.75c1.5 0 2.25.75 2.25 2.625V20.25M4.5 6.75a3 3 0 0 1 6 0v13.5M10.5 6.75a3 3 0 0 1 6 0V13.5C16.5 15.5 17.925 16.8 19.125 18C20.025 18.9 20.55 19.8 21.75 20.25M16.5 9.375a5.25 4.125 0 0 1 5.25 4.125C21.75 15.5 20.325 16.8 19.125 18C18.225 18.9 17.7 19.8 16.5 20.25",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "libra": {
+    "name": "libra",
+    "category": "signs",
+    "codepoint": "U+264E",
+    "character": "♎",
+    "keywords": [
+      "scales",
+      "air",
+      "cardinal"
+    ],
+    "source": "original",
+    "path": "M3.75 20.25h16.5M3.75 14.75h4.933A6 6 0 1 1 15.317 14.75h4.933",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "scorpio": {
+    "name": "scorpio",
+    "category": "signs",
+    "codepoint": "U+264F",
+    "character": "♏",
+    "keywords": [
+      "scorpion",
+      "water",
+      "fixed"
+    ],
+    "source": "original",
+    "path": "M2.25 3.75c1.5 0 2.25.75 2.25 2.625V20.25M4.5 6.75a3 3 0 0 1 6 0v13.5M10.5 6.75a3 3 0 0 1 6 0v11.625a1.875 1.875 0 0 0 3.201 1.326l2.049-2.049M19.152 17.652h2.598v2.598",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "sagittarius": {
+    "name": "sagittarius",
+    "category": "signs",
+    "codepoint": "U+2650",
+    "character": "♐",
+    "keywords": [
+      "archer",
+      "fire",
+      "mutable"
+    ],
+    "source": "original",
+    "path": "M3.75 20.25 20.25 3.75M13.5 3.75h6.75v6.75M6 12l6 6",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "capricorn": {
+    "name": "capricorn",
+    "category": "signs",
+    "codepoint": "U+2651",
+    "character": "♑",
+    "keywords": [
+      "sea-goat",
+      "earth",
+      "cardinal"
+    ],
+    "source": "original",
+    "path": "M4.125 5.25c.75-.9 1.5-1.125 2.25-.375C7.5 6 8.25 8.625 8.25 12.375M8.25 8.625 12 3.75v8.25c0 .75.3 1.5.9 2M18 13.875a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM14.1 15.45C12.75 18.75 10.5 20.25 7.5 20.25",
+    "bounds": {
+      "left": 4.125,
+      "right": 18,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 11.063,
+      "y": 12
+    }
+  },
+  "aquarius": {
+    "name": "aquarius",
+    "category": "signs",
+    "codepoint": "U+2652",
+    "character": "♒",
+    "keywords": [
+      "water-bearer",
+      "air",
+      "fixed"
+    ],
+    "source": "original",
+    "path": "M2.25 8.625 7.125 3.75 12 8.625l4.875-4.875 4.875 4.875M2.25 20.25l4.875-4.875L12 20.25l4.875-4.875 4.875 4.875",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "pisces": {
+    "name": "pisces",
+    "category": "signs",
+    "codepoint": "U+2653",
+    "character": "♓",
+    "keywords": [
+      "fish",
+      "water",
+      "mutable"
+    ],
+    "source": "original",
+    "path": "M5.25 3.75a15 15 0 0 1 0 16.5M18.75 3.75a15 15 0 0 0 0 16.5M7.72 12h8.56",
+    "bounds": {
+      "left": 5.25,
+      "right": 18.75,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "conjunction": {
+    "name": "conjunction",
+    "category": "aspects",
+    "codepoint": "U+260C",
+    "character": "☌",
+    "keywords": [
+      "0°"
+    ],
+    "source": "original",
+    "path": "M12.75 15.75a4.5 4.5 0 1 1-9.0 0 4.5 4.5 0 0 1 9.0 0ZM11.43 12.57 20.25 3.75",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "opposition": {
+    "name": "opposition",
+    "category": "aspects",
+    "codepoint": "U+260D",
+    "character": "☍",
+    "keywords": [
+      "180°"
+    ],
+    "source": "original",
+    "path": "M8.25 18a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM20.25 6a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0ZM7.59 16.41l8.82-8.82",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "square": {
+    "name": "square",
+    "category": "aspects",
+    "codepoint": "U+25A1",
+    "character": "□",
+    "keywords": [
+      "90°"
+    ],
+    "source": "original",
+    "path": "M4.875 3.75h14.25c.621 0 1.125.504 1.125 1.125v14.25c0 .621-.504 1.125-1.125 1.125H4.875a1.125 1.125 0 0 1-1.125-1.125V4.875c0-.621.504-1.125 1.125-1.125Z",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "trine": {
+    "name": "trine",
+    "category": "aspects",
+    "codepoint": "U+25B3",
+    "character": "△",
+    "keywords": [
+      "120°"
+    ],
+    "source": "original",
+    "path": "M12 3.75 20.25 20.25H3.75Z",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "quincunx": {
+    "name": "quincunx",
+    "category": "aspects",
+    "codepoint": "U+26BB",
+    "character": "⚻",
+    "keywords": [
+      "150°",
+      "inconjunct"
+    ],
+    "source": "original",
+    "path": "M3.75 3.75h16.5M12 3.75 5.25 20.25M12 3.75l6.75 16.5",
+    "bounds": {
+      "left": 3.75,
+      "right": 20.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "sextile": {
+    "name": "sextile",
+    "category": "aspects",
+    "codepoint": "U+26B9",
+    "character": "⚹",
+    "keywords": [
+      "60°"
+    ],
+    "source": "original",
+    "path": "M12 3.75v16.5M4.85 7.875l14.3 8.25M4.85 16.125l14.3-8.25",
+    "bounds": {
+      "left": 4.85,
+      "right": 19.15,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "fire": {
+    "name": "fire",
+    "category": "elements",
+    "codepoint": "U+1F702",
+    "character": "🜂",
+    "keywords": [
+      "alchemy",
+      "triangle"
+    ],
+    "source": "original",
+    "path": "M12 3.75 21.526 20.25H2.474Z",
+    "bounds": {
+      "left": 2.474,
+      "right": 21.526,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "earth": {
+    "name": "earth",
+    "category": "elements",
+    "codepoint": "U+1F703",
+    "character": "🜃",
+    "keywords": [
+      "alchemy",
+      "triangle"
+    ],
+    "source": "original",
+    "path": "M12 20.25 2.474 3.75h19.052ZM6.804 11.25h10.392",
+    "bounds": {
+      "left": 2.474,
+      "right": 21.526,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "air": {
+    "name": "air",
+    "category": "elements",
+    "codepoint": "U+1F701",
+    "character": "🜁",
+    "keywords": [
+      "alchemy",
+      "triangle"
+    ],
+    "source": "original",
+    "path": "M12 3.75 21.526 20.25H2.474ZM6.804 12.75h10.392",
+    "bounds": {
+      "left": 2.474,
+      "right": 21.526,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "water": {
+    "name": "water",
+    "category": "elements",
+    "codepoint": "U+1F704",
+    "character": "🜄",
+    "keywords": [
+      "alchemy",
+      "triangle"
+    ],
+    "source": "original",
+    "path": "M12 20.25 2.474 3.75h19.052Z",
+    "bounds": {
+      "left": 2.474,
+      "right": 21.526,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-0": {
+    "name": "numeral-0",
+    "category": "numerals",
+    "codepoint": "U+0030",
+    "character": "0",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M7.5 8.25a4.5 4.5 0 0 1 9 0v7.5a4.5 4.5 0 0 1-9 0Z",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-1": {
+    "name": "numeral-1",
+    "category": "numerals",
+    "codepoint": "U+0031",
+    "character": "1",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M10.125 7.5 13.875 3.75v16.5",
+    "bounds": {
+      "left": 10.125,
+      "right": 13.875,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-2": {
+    "name": "numeral-2",
+    "category": "numerals",
+    "codepoint": "U+0032",
+    "character": "2",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M8.068 8.25a4.5 4.5 0 1 1 7.682 3.182L6.932 20.25H17.068",
+    "bounds": {
+      "left": 6.932,
+      "right": 17.068,
+      "top": 3.751,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12.001
+    }
+  },
+  "numeral-3": {
+    "name": "numeral-3",
+    "category": "numerals",
+    "codepoint": "U+0033",
+    "character": "3",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M8.451 5.625A3.75 3.75 0 1 1 11.699 11.25h-1.5M11.699 11.25A4.5 4.5 0 1 1 7.801 18",
+    "bounds": {
+      "left": 7.801,
+      "right": 16.198,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-4": {
+    "name": "numeral-4",
+    "category": "numerals",
+    "codepoint": "U+0034",
+    "character": "4",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M14.25 20.25V3.75L6.75 15.75h10.5",
+    "bounds": {
+      "left": 6.75,
+      "right": 17.25,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-5": {
+    "name": "numeral-5",
+    "category": "numerals",
+    "codepoint": "U+0035",
+    "character": "5",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M15.824 3.75H8.012V13.169A4.5 4.5 0 1 1 7.801 18",
+    "bounds": {
+      "left": 7.801,
+      "right": 16.194,
+      "top": 3.75,
+      "bottom": 20.249
+    },
+    "ink": {
+      "x": 11.997,
+      "y": 12
+    }
+  },
+  "numeral-6": {
+    "name": "numeral-6",
+    "category": "numerals",
+    "codepoint": "U+0036",
+    "character": "6",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M16.5 15.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM7.5 15.75A13.35 13.35 0 0 1 15 3.75",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-7": {
+    "name": "numeral-7",
+    "category": "numerals",
+    "codepoint": "U+0037",
+    "character": "7",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M7.5 3.75h9L10.5 20.25",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-8": {
+    "name": "numeral-8",
+    "category": "numerals",
+    "codepoint": "U+0038",
+    "character": "8",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M15.75 7.5a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM16.5 15.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Z",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "numeral-9": {
+    "name": "numeral-9",
+    "category": "numerals",
+    "codepoint": "U+0039",
+    "character": "9",
+    "keywords": [
+      "digit",
+      "house number"
+    ],
+    "source": "original",
+    "path": "M7.5 8.25a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM16.5 8.25A13.35 13.35 0 0 1 9 20.25",
+    "bounds": {
+      "left": 7.5,
+      "right": 16.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "letter-a": {
+    "name": "letter-a",
+    "category": "letters",
+    "codepoint": "U+0041",
+    "character": "A",
+    "keywords": [
+      "angle",
+      "ascendant",
+      "midheaven"
+    ],
+    "source": "original",
+    "path": "M6.5 20.25 12 3.75 17.5 20.25M8.333 14.75h7.333",
+    "bounds": {
+      "left": 6.5,
+      "right": 17.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "letter-c": {
+    "name": "letter-c",
+    "category": "letters",
+    "codepoint": "U+0043",
+    "character": "C",
+    "keywords": [
+      "angle",
+      "ascendant",
+      "midheaven"
+    ],
+    "source": "original",
+    "path": "M16.17 5.984A4.469 4.469 0 0 0 7.83 8.219V15.781A4.469 4.469 0 0 0 16.17 18.016",
+    "bounds": {
+      "left": 7.83,
+      "right": 16.17,
+      "top": 3.748,
+      "bottom": 20.252
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "letter-m": {
+    "name": "letter-m",
+    "category": "letters",
+    "codepoint": "U+004D",
+    "character": "M",
+    "keywords": [
+      "angle",
+      "ascendant",
+      "midheaven"
+    ],
+    "source": "original",
+    "path": "M6.5 20.25V3.75L12 13.375 17.5 3.75v16.5",
+    "bounds": {
+      "left": 6.5,
+      "right": 17.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "letter-d": {
+    "name": "letter-d",
+    "category": "letters",
+    "codepoint": "U+0044",
+    "character": "D",
+    "keywords": [
+      "angle",
+      "ascendant",
+      "midheaven"
+    ],
+    "source": "original",
+    "path": "M6.5 3.75v16.5h2.75a8.25 8.25 0 0 0 0-16.5Z",
+    "bounds": {
+      "left": 6.5,
+      "right": 17.5,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "letter-i": {
+    "name": "letter-i",
+    "category": "letters",
+    "codepoint": "U+0049",
+    "character": "I",
+    "keywords": [
+      "angle"
+    ],
+    "source": "original",
+    "path": "M12 3.75v16.5",
+    "bounds": {
+      "left": 12,
+      "right": 12,
+      "top": 3.75,
+      "bottom": 20.25
+    },
+    "ink": {
+      "x": 12,
+      "y": 12
+    }
+  },
+  "domicile": {
+    "name": "domicile",
+    "category": "dignities",
+    "keywords": [
+      "home",
+      "rulership",
+      "house",
+      "dignity"
+    ],
+    "source": "heroicons",
+    "heroicon": "home",
+    "path": "m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 2.716,
+      "bottom": 21
+    },
+    "ink": {
+      "x": 12,
+      "y": 11.858
+    }
+  },
+  "exaltation": {
+    "name": "exaltation",
+    "category": "dignities",
+    "keywords": [
+      "crown",
+      "dignity"
+    ],
+    "source": "original",
+    "path": "M4.5 18 2.25 6l4.875 4.875L12 6l4.875 4.875L21.75 6 19.5 18ZM4.5 21h15",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 6,
+      "bottom": 21
+    },
+    "ink": {
+      "x": 12,
+      "y": 13.5
+    }
+  },
+  "detriment": {
+    "name": "detriment",
+    "category": "dignities",
+    "keywords": [
+      "home",
+      "struck",
+      "exile",
+      "debility"
+    ],
+    "source": "heroicons",
+    "heroicon": "home",
+    "path": "m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25M3 3l18 18",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 2.716,
+      "bottom": 21
+    },
+    "ink": {
+      "x": 12,
+      "y": 11.858
+    }
+  },
+  "fall": {
+    "name": "fall",
+    "category": "dignities",
+    "keywords": [
+      "crown",
+      "turned",
+      "debility"
+    ],
+    "source": "original",
+    "path": "M19.5 9 21.75 21l-4.875-4.875L12 21l-4.875-4.875L2.25 21 4.5 9ZM19.5 6h-15",
+    "bounds": {
+      "left": 2.25,
+      "right": 21.75,
+      "top": 6,
+      "bottom": 21
+    },
+    "ink": {
+      "x": 12,
+      "y": 13.5
+    }
+  },
+  "retrograde": {
+    "name": "retrograde",
+    "category": "dignities",
+    "codepoint": "U+211E",
+    "character": "℞",
+    "keywords": [
+      "rx",
+      "motion",
+      "backward"
+    ],
+    "source": "original",
+    "path": "M4.5 21V4.875a1.125 1.125 0 0 1 1.125-1.125h9.75a4.125 4.125 0 0 1 0 8.25H4.5M12.75 12l9 9M15.75 21l6-6",
+    "bounds": {
+      "left": 4.5,
+      "right": 21.75,
+      "top": 3.75,
+      "bottom": 21
+    },
+    "ink": {
+      "x": 13.125,
+      "y": 12.375
+    }
+  }
+}

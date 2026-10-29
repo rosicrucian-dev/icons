@@ -1,5 +1,5 @@
-// The icons as the repo holds them: each SVG in icons/24/outline read with
-// its entry in icons/meta.json, checked, and given its ink's bounds. The
+// The icons as the repo holds them: each SVG in src/24/outline read with
+// its entry in src/meta.json, checked, and given its ink's bounds. The
 // build (build.ts), the tests and the contact sheet all read them here.
 
 import { readdirSync, readFileSync } from 'node:fs'
@@ -8,8 +8,8 @@ import { join } from 'node:path'
 import { bounds, inkCentre, type Bounds } from './path.ts'
 
 export const ROOT = new URL('..', import.meta.url).pathname
-export const ICONS_DIR = join(ROOT, 'icons/24/outline')
-export const META_FILE = join(ROOT, 'icons/meta.json')
+export const ICONS_DIR = join(ROOT, 'src/24/outline')
+export const META_FILE = join(ROOT, 'src/meta.json')
 
 export const CATEGORIES = [
   'planets',

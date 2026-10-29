@@ -1,5 +1,5 @@
-// A new icon to draw: the grid template copied to icons/24/outline/<name>.svg
-// and a stub entry added to icons/meta.json.
+// A new icon to draw: the grid template copied to src/24/outline/<name>.svg
+// and a stub entry added to src/meta.json.
 //
 //   npm run new-icon <name> <category>
 
@@ -38,5 +38,5 @@ meta[name] = {
 }
 writeFileSync(META_FILE, JSON.stringify(meta, null, 2) + '\n')
 console.log(
-  `${file}: draw on the grid, then keep the one <path> alone; its entry is in icons/meta.json`,
+  `${file}: draw on the grid, then keep the one <path> alone; its entry is in src/meta.json`,
 )

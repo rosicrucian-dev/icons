@@ -87,11 +87,11 @@ test('the React package renders each icon as its file draws it', async () => {
     assert.ok(titled.includes('aria-labelledby="sun"'))
     // The manifest is written, and the SVGs copied.
     const written = JSON.parse(
-      readFileSync(join(out, 'icons/icons.json'), 'utf8'),
+      readFileSync(join(out, 'src/icons.json'), 'utf8'),
     )
     assert.equal(Object.keys(written).length, icons.length)
     assert.equal(
-      readFileSync(join(out, 'icons/svg/24/outline/sun.svg'), 'utf8'),
+      readFileSync(join(out, 'src/svg/24/outline/sun.svg'), 'utf8'),
       icons[0].svg,
     )
   } finally {

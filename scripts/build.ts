@@ -73,19 +73,19 @@ export function build(out = join(ROOT, 'packages')) {
   const icons = readIcons()
 
   // @rosicrucian-dev/icons
-  const svgDir = join(out, 'icons/svg/24/outline')
-  rmSync(join(out, 'icons/svg'), { recursive: true, force: true })
+  const svgDir = join(out, 'src/svg/24/outline')
+  rmSync(join(out, 'src/svg'), { recursive: true, force: true })
   mkdirSync(svgDir, { recursive: true })
   for (const icon of icons)
     copyFileSync(
-      join(ROOT, 'icons/24/outline', `${icon.name}.svg`),
+      join(ROOT, 'src/24/outline', `${icon.name}.svg`),
       join(svgDir, `${icon.name}.svg`),
     )
   writeFileSync(
-    join(out, 'icons/icons.json'),
+    join(out, 'src/icons.json'),
     JSON.stringify(manifest(icons), null, 2) + '\n',
   )
-  copyFileSync(join(ROOT, 'README.md'), join(out, 'icons/README.md'))
+  copyFileSync(join(ROOT, 'README.md'), join(out, 'src/README.md'))
 
   // @rosicrucian-dev/icons-react
   const reactDir = join(out, 'react/24/outline')

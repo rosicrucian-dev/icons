@@ -71,7 +71,7 @@ icons/
       24/outline/*.js     generated components, plus .d.ts
   scripts/
     build.ts              SVGO, then the manifest and the components
-    new-icon.ts           copies the grid template to icons/24/outline/<name>.svg
+    new-icon.ts           copies the grid template to src/24/outline/<name>.svg
   test/
     rules.test.ts         every SVG obeys the style rules (see §5)
     manifest.test.ts      names unique, categories known, codepoints valid

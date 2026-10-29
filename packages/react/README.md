@@ -66,6 +66,20 @@ drawing at build time.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the rules, and
 [`template/grid.svg`](template/grid.svg) for the grid to draw on.
 
+## Developing
+
+Node 22.18 or newer.
+
+```sh
+npm install
+npm test          # the rules, for every icon; the build renders
+npm run build     # the two packages, under packages/ (not committed)
+npm run sheet     # docs/sheet.html, every icon by category, light and dark
+npm run new-icon <name> <category>
+```
+
+A tag `vX.Y.Z` publishes both packages at that version (`.github/workflows/publish.yml`).
+
 ## Credits
 
 - [Heroicons](https://github.com/tailwindlabs/heroicons) by Tailwind Labs,

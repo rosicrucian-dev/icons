@@ -38,12 +38,12 @@ The tests (`npm test`) check these for every file in `icons/`.
 ## Drawing one
 
 1. Copy [`template/grid.svg`](template/grid.svg) to
-   `icons/24/outline/<name>.svg` (`npm run new-icon <name>` does this). The
+   `src/24/outline/<name>.svg` (`npm run new-icon <name>` does this). The
    name is words in kebab case, never the Unicode character: `north-node`,
    not `☊`.
 2. Draw on the grid in any SVG editor, or by hand in the path. Delete the
    guides when done: the file holds the one path.
-3. Add the icon to `icons/meta.json`: its category, the Unicode codepoint
+3. Add the icon to `src/meta.json`: its category, the Unicode codepoint
    it stands for if there is one (and the character), a few keywords for
    search, and its source (`original`, or `heroicons` with the Heroicon's
    name when it is one or builds on one). The ink's bounds and centre are
