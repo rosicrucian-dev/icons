@@ -1,89 +1,70 @@
-# Rosicrucian Icons
+<p align="center">
+  <strong>Rosicrucian Icons</strong>
+</p>
 
-The symbols of the spiritual traditions, drawn in one family, in the manner
-of [Heroicons](https://heroicons.com): a 24-unit grid, one 1.5 stroke, round
-caps and joins, every symbol the same height. Heroicons is the base we build
-on: its icons are welcome here where they serve, and ours are drawn to stand
-beside them.
+<p align="center">
+  Hand-crafted SVG icons of the symbols of the spiritual traditions, drawn in the manner of <a href="https://heroicons.com">Heroicons</a>, by <a href="https://rosicrucian.dev">Rosicrucian Developers</a>. <br>Available as basic SVG icons and via a first-party <a href="#react">React</a> library.
+<p>
 
-It starts with astrology, the symbols
-[Starscroll](https://starscroll.net) draws: the planets, Chiron and the
-Moon's nodes, the twelve signs, the aspects, the four elements, the
-dignities, and numerals and letters in the same stroke for house numbers
-and the angles. Other traditions follow: tarot, kabbalah, alchemy, sacred
-geometry.
+<p align="center">
+  <a href="https://rosicrucian.dev/icons"><strong>Browse at rosicrucian.dev/icons &rarr;</strong></a>
+</p>
 
-An open source project of [Rosicrucian Developers](https://rosicrucian.dev).
-MIT.
+The set starts with astrology: the planets, Chiron and the Moon's nodes, the twelve signs, the aspects, the four elements, the dignities, and numerals and letters in the same stroke for house numbers and the angles. Other traditions follow.
 
-## Using the icons
+## Basic Usage
 
-Two packages (coming with the first release):
+The quickest way to use these icons is to simply copy the source for the icon you need from [`src/24/outline`](src/24/outline) and inline it directly into your HTML:
 
-- **`@rosicrucian-dev/icons`**: the SVG files, and `icons.json`, a manifest
-  with each icon's name, category, Unicode codepoint, keywords, path and
-  the centre of its ink. For any framework, or none.
-- **`@rosicrucian-dev/icons-react`**: a component per icon.
+```html
+<svg
+  class="size-6 text-gray-500"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  stroke-width="1.5"
+>
+  <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M16.5 8.25a4.5 4.5 0 1 1-9.0 0 4.5 4.5 0 0 1 9.0 0ZM12 12.75v7.5M8.25 16.5h7.5"
+  />
+</svg>
+```
 
-```tsx
-import { MercuryIcon } from '@rosicrucian-dev/icons-react/24/outline'
+The icons are preconfigured to be stylable by setting the `color` CSS property, either manually or using utility classes like `text-gray-500` in a framework like [Tailwind CSS](https://tailwindcss.com).
 
-export function Example() {
-  return <MercuryIcon className="size-6 text-zinc-500" />
+The `@rosicrucian-dev/icons` package has the SVG files and `icons.json`, a manifest with each icon's name, category, Unicode codepoint, keywords, path, and the bounds and centre of its ink, for placing a symbol by its ink rather than its box.
+
+## React
+
+First, install `@rosicrucian-dev/icons-react` from npm:
+
+```sh
+npm install @rosicrucian-dev/icons-react
+```
+
+Now each icon can be imported individually as a React component:
+
+```js
+import { VenusIcon } from '@rosicrucian-dev/icons-react/24/outline'
+
+function MyComponent() {
+  return (
+    <div>
+      <VenusIcon className="size-6 text-blue-500" />
+      <p>...</p>
+    </div>
+  )
 }
 ```
 
-Until then, the SVGs are in [`icons/24/outline`](icons/24/outline), each a
-single path on the 24 grid, ready to paste.
+Icons use an upper camel case naming convention and are always suffixed with the word `Icon`.
 
-### Set by the ink, not the box
+## Contributing
 
-Heroicons centre an icon in its box. These do too, but a symbol's ink is
-rarely centred: the Moon's bow sits to one side, a crown's weight is low.
-The manifest gives each icon the centre of its ink (`ink.x`, `ink.y`), so
-an app that places symbols precisely, on a chart wheel or in a grid of
-discs, can set the ink where it wants it. Starscroll does.
+New icons are welcome, in the categories that exist and in new ones. See [CONTRIBUTING.md](CONTRIBUTING.md) for how they're drawn and the checks they pass.
 
-## The set
+## License
 
-| Category  | Icons                                                                                               |
-| --------- | --------------------------------------------------------------------------------------------------- |
-| planets   | sun, moon, mercury, venus, mars, jupiter, saturn, uranus, neptune, pluto                            |
-| points    | north-node, south-node, chiron                                                                      |
-| signs     | aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces |
-| aspects   | conjunction, opposition, square, trine, quincunx, sextile                                           |
-| elements  | fire, earth, air, water                                                                             |
-| dignities | domicile, exaltation, detriment, fall, retrograde                                                   |
-| numerals  | numeral-0 … numeral-9                                                                               |
-| letters   | letter-a, letter-c, letter-d, letter-i, letter-m (the angles: AC, MC, DC, IC)                       |
-
-[`icons/meta.json`](icons/meta.json) has each icon's category, codepoint,
-keywords and source; the ink's bounds and centre are measured from the
-drawing at build time.
-
-## How they're drawn
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the rules, and
-[`template/grid.svg`](template/grid.svg) for the grid to draw on.
-
-## Developing
-
-Node 22.18 or newer.
-
-```sh
-npm install
-npm test          # the rules, for every icon; the build renders
-npm run build     # the two packages, under packages/ (not committed)
-npm run sheet     # docs/sheet.html, every icon by category, light and dark
-npm run new-icon <name> <category>
-```
-
-A tag `vX.Y.Z` publishes both packages at that version (`.github/workflows/publish.yml`).
-
-## Credits
-
-- [Heroicons](https://github.com/tailwindlabs/heroicons) by Tailwind Labs,
-  MIT: the manner, and the icons marked `"source": "heroicons"`.
-- The symbols' forms follow the conventions of the tradition, drawn fresh
-  on this grid; [Astronomicon](https://astronomicon.co) was the reference
-  for how the conventional forms are constructed.
+This library is MIT licensed. Icons marked `"source": "heroicons"` in `src/meta.json` are from, or built on, [Heroicons](https://github.com/tailwindlabs/heroicons) by Tailwind Labs, also MIT; the symbols' conventional forms were drawn with [Astronomicon](https://astronomicon.co) as the reference.
